@@ -2,13 +2,14 @@
 //  AppDelegate.h
 //  QQWechat
 //
-//  Created by ZA on 2020/11/11.
+//  Created by 纵昂 on 2020/11/11.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) UIWindow * window;
 
 @end
 

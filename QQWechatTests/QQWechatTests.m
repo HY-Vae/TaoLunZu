@@ -2,7 +2,7 @@
 //  QQWechatTests.m
 //  QQWechatTests
 //
-//  Created by ZA on 2020/11/11.
+//  Created by 纵昂 on 2020/11/11.
 //
 
 #import <XCTest/XCTest.h>

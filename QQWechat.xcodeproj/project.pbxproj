@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		190E0ED0255B8911001C313A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E0ECF255B8911001C313A /* AppDelegate.m */; };
-		190E0ED3255B8911001C313A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E0ED2255B8911001C313A /* SceneDelegate.m */; };
 		190E0ED6255B8911001C313A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E0ED5255B8911001C313A /* ViewController.m */; };
 		190E0ED9255B8911001C313A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190E0ED7255B8911001C313A /* Main.storyboard */; };
 		190E0EDB255B8913001C313A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E0EDA255B8913001C313A /* Assets.xcassets */; };
@@ -16,6 +15,7 @@
 		190E0EE1255B8913001C313A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E0EE0255B8913001C313A /* main.m */; };
 		190E0EEB255B8914001C313A /* QQWechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E0EEA255B8914001C313A /* QQWechatTests.m */; };
 		190E0EF6255B8914001C313A /* QQWechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E0EF5255B8914001C313A /* QQWechatUITests.m */; };
+		190E0F0B255B895D001C313A /* UIImage+Addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E0F0A255B895D001C313A /* UIImage+Addtions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		190E0ECB255B8911001C313A /* QQWechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQWechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		190E0ECE255B8911001C313A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		190E0ECF255B8911001C313A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		190E0ED1255B8911001C313A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		190E0ED2255B8911001C313A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		190E0ED4255B8911001C313A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		190E0ED5255B8911001C313A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		190E0ED8255B8911001C313A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		190E0EF1255B8914001C313A /* QQWechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQWechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		190E0EF5255B8914001C313A /* QQWechatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQWechatUITests.m; sourceTree = "<group>"; };
 		190E0EF7255B8914001C313A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190E0F09255B895D001C313A /* UIImage+Addtions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addtions.h"; sourceTree = "<group>"; };
+		190E0F0A255B895D001C313A /* UIImage+Addtions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addtions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +104,10 @@
 		190E0ECD255B8911001C313A /* QQWechat */ = {
 			isa = PBXGroup;
 			children = (
+				190E0F09255B895D001C313A /* UIImage+Addtions.h */,
+				190E0F0A255B895D001C313A /* UIImage+Addtions.m */,
 				190E0ECE255B8911001C313A /* AppDelegate.h */,
 				190E0ECF255B8911001C313A /* AppDelegate.m */,
-				190E0ED1255B8911001C313A /* SceneDelegate.h */,
-				190E0ED2255B8911001C313A /* SceneDelegate.m */,
 				190E0ED4255B8911001C313A /* ViewController.h */,
 				190E0ED5255B8911001C313A /* ViewController.m */,
 				190E0ED7255B8911001C313A /* Main.storyboard */,
@@ -269,7 +269,7 @@
 				190E0ED6255B8911001C313A /* ViewController.m in Sources */,
 				190E0ED0255B8911001C313A /* AppDelegate.m in Sources */,
 				190E0EE1255B8913001C313A /* main.m in Sources */,
-				190E0ED3255B8911001C313A /* SceneDelegate.m in Sources */,
+				190E0F0B255B895D001C313A /* UIImage+Addtions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
 				INFOPLIST_FILE = QQWechat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
 				INFOPLIST_FILE = QQWechat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
